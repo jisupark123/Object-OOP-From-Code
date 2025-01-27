@@ -1,4 +1,4 @@
-package step02;
+package step03;
 
 // 티켓 판매원 (매표소 직원)
 public class TicketSeller {
@@ -9,7 +9,6 @@ public class TicketSeller {
     }
 
     public void sellTo(Audience audience){
-        Ticket ticket = ticketOffice.getTicket();
-        ticketOffice.plusAmount(audience.buy(ticket));
+        ticketOffice.sellTicketTo(audience);
     }
 }

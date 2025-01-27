@@ -1,4 +1,4 @@
-package step02;
+package step03;
 
 // 티켓
 public class Ticket {

@@ -1,4 +1,4 @@
-package step02;
+package step03;
 
 // 소극장
 public class Theater {
