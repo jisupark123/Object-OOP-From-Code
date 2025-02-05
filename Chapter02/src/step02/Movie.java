@@ -7,9 +7,9 @@ public class Movie {
     private String title; // 제목
     private Duration runningTime; // 러닝 타임
     private Money fee; // 기본 요금
-    private DiscountPolicy discountPolicy; // 할인 정책 (하나의 영화에는 하나의 할인 정책)
+    private DefaultDiscountPolicy discountPolicy; // 할인 정책 (하나의 영화에는 하나의 할인 정책)
 
-    public Movie(String title, Duration runningTime, Money fee, DiscountPolicy discountPolicy) {
+    public Movie(String title, Duration runningTime, Money fee, DefaultDiscountPolicy discountPolicy) {
         this.title = title;
         this.runningTime = runningTime;
         this.fee = fee;

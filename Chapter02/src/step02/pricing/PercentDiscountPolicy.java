@@ -1,11 +1,11 @@
 package step02.pricing;
 
 import step02.DiscountCondition;
-import step02.DiscountPolicy;
+import step02.DefaultDiscountPolicy;
 import step02.Money;
 import step02.Screening;
 
-public class PercentDiscountPolicy extends DiscountPolicy {
+public class PercentDiscountPolicy extends DefaultDiscountPolicy {
     private double percent;
 
     public PercentDiscountPolicy(double percent, DiscountCondition... conditions) {
